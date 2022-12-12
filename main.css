@@ -1,0 +1,106 @@
+:root {
+	--orange-soda: #f85c3e;
+	--eggshell: #e8e4cd;
+	--caput-mortuum: #4e251d;
+	--desert-sand: #dfc1a5;
+	--coral: #fd8763;
+}
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+.page {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.splash {
+	width: 40%;
+	height: 100%;
+	background-image: url("images/salvatore.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #4e251d;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 33%;
+	width: 100%;
+	height: 10%;
+	background-color: #ffffff30;
+	color: #ffffff;
+}
+
+.logo {
+	fill: black;
+}
+
+.background {
+	height: 100%;
+}
+
+.title {
+	font-size: 4em;
+	font-weight: 300;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: #e8e4cd;
+	width: 60%;
+	height: 100%;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column-reverse;
+	height: 33%;	
+}
+
+.welcome p {
+	margin-left: 10%;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	height: 33%;
+	background-color: #dfc1a580;
+	padding: 10%;
+}
+
+.input {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+label, input {
+	width: 80%;
+}
+
+label {
+	color: #f85c3e;
+}
+
+.footer {
+	margin: 10%;
+}

@@ -21,39 +21,41 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 			<div class="form">
+				<h2>Let's do this!</h2>
 				<form class="input">
 					<div class="field">
-						<label>First Name</label>
-						<input type="text"></input>
+						<label>First Name*</label>
+						<input type="text" maxlength="20" required></input>
 					</div>
 					<div class="field">
-						<label>Last Name</label>
-						<input type="text"></input>
+						<label>Last Name*</label>
+						<input type="text" maxlength="20" required></input>
 					</div>
 					<div class="field">
-						<label>Email</label>
-						<input type="text"></input>
+						<label>Email*</label>
+						<input type="email" required></input>
 					</div>
 					<div class="field">
 						<label>Phone Number</label>
-						<input type="text"></input>
+						<input type="text" required></input>
 					</div>
 					<div class="field">
-						<label>Password</label>
-						<input type="text"></input>
+						<label>Password*</label>
+						<input type="password" required id="password"></input>
 					</div>
 					<div class="field">
-						<label>Confirm Password</label>
-						<input type="text"></input>
+						<label id="password-label">Confirm Password*</label>
+						<input type="password" required id="confirm-password"></input>
 					</div>
 				</form>
 			</div>
 			<div class="footer">
-				<button>Create Account</button>
-				<p>Already have an account?</p>
-				<a href="">Log in</a>
+				<p id="confirmation">&nbsp</p>
+				<button id="submit">Create Account</button>
+				<p>Already have an account? <a href="">Log in</a></p>
 			</div>
 		</div>
 	</div>
+	<script src="script.js"></script>
 </body>
 </html>

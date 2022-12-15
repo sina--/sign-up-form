@@ -70,7 +70,9 @@ body {
 }
 
 .welcome p {
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 10%;
+	text-align: justify;
 }
 
 .form {
@@ -98,6 +100,15 @@ label, input {
 	width: 80%;
 }
 
+input {
+	border: solid 1px;
+	border-color: #4e251d;
+}
+
+input:focus {
+	outline-color: #f85c3e;
+}
+
 label {
 	color: #4e251d;
 	font-size: 0.7em;
@@ -106,7 +117,7 @@ label {
 }
 
 .footer {
-	margin: 10%;
+	margin: 5%;
 	margin-top: 2%;
 }
 
@@ -116,4 +127,6 @@ button {
 	height: 2em;
 	border-radius: 1em;
 	cursor: pointer;
+	color: white;
+	font-weight: 800;
 }
